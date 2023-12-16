@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pagniation</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <h1 id="title">Pagination</h1>
+      <p id="description">
+        I have created this pagination feature using HTML, CSS, and JavaScript.
+      </p>
+      <div class="table-responsive">
+        <div class="table">
+          <button
+            id="buttons"
+            class="btn1 d-flex justify-content-center"
+            onclick="backBtn()"
+          >
+            Previous
+          </button>
+          <ul>
+            <li class="link active" onclick="activeLink()" value="1">1</li>
+            <li class="link" onclick="activeLink()" value="2">2</li>
+            <li class="link" onclick="activeLink()" value="3">3</li>
+            <li class="link" onclick="activeLink()" value="4">4</li>
+            <li class="link" onclick="activeLink()" value="5">5</li>
+            <li class="link" onclick="activeLink()" value="6">6</li>
+            <li class="link" onclick="activeLink()" value="7">7</li>
+            <li class="link" onclick="activeLink()" value="8">8</li>
+            <li class="link" onclick="activeLink()" value="9">9</li>
+          </ul>
+          <button class="btn2" onclick="nextBtn()">Next</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+  </body>
+</html>
